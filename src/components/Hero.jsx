@@ -169,7 +169,7 @@ export default function Hero() {
       </div>
 
       {/* Stats bar */}
-      <div style={{
+      <div className="hero-stats" style={{
         position: "relative", zIndex: 2, display: "flex", gap: "0", flexWrap: "wrap", justifyContent: "center",
         marginTop: "5rem", borderRadius: "var(--radius)",
         background: "rgba(13,20,32,0.8)", border: "1px solid var(--border)",

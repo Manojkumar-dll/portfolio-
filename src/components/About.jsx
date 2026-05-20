@@ -3,7 +3,7 @@ import { data } from "../data";
 export default function About() {
   return (
     <section id="about" style={{ padding: "8rem 2rem", maxWidth: "1100px", margin: "0 auto" }}>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "center" }}>
+      <div className="about-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "center" }}>
         {/* Left */}
         <div>
           <p style={{ fontSize: "0.78rem", color: "var(--accent)", letterSpacing: "0.15em", textTransform: "uppercase", fontWeight: 600, marginBottom: "1rem" }}>About Me</p>
@@ -76,7 +76,7 @@ export default function About() {
 
       <style>{`
         @media (max-width: 768px) {
-          #about > div { grid-template-columns: 1fr !important; gap: 3rem !important; }
+          .about-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
         }
       `}</style>
     </section>

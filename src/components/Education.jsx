@@ -11,7 +11,7 @@ export default function Education() {
         </h2>
       </div>
 
-      <div style={{
+      <div className="edu-grid" style={{
         display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2rem", alignItems: "start",
       }}>
         {/* Edu card */}
@@ -93,7 +93,7 @@ export default function Education() {
 
       <style>{`
         @media (max-width: 768px) {
-          #education > div:last-child { grid-template-columns: 1fr !important; }
+          .edu-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
         }
       `}</style>
     </section>

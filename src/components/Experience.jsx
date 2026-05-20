@@ -11,7 +11,7 @@ function ExperienceCard({ exp, index }) {
   ];
 
   return (
-    <div style={{
+    <div className="exp-card-grid" style={{
       display: "grid", gridTemplateColumns: "200px 1fr", gap: "3rem", marginBottom: "4rem",
       position: "relative",
     }}>
@@ -102,7 +102,8 @@ function ExperienceCard({ exp, index }) {
 
       <style>{`
         @media (max-width: 768px) {
-          #experience .exp-grid { grid-template-columns: 1fr !important; gap: 1rem !important; }
+          .exp-card-grid { grid-template-columns: 1fr !important; gap: 1rem !important; }
+          .exp-card-grid > div:first-child { display: flex !important; flex-wrap: wrap !important; gap: 0.5rem !important; align-items: center !important; padding-top: 0 !important; }
         }
       `}</style>
     </div>
