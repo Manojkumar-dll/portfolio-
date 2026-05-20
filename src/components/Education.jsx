@@ -67,7 +67,7 @@ export default function Education() {
           {[
             { year: "2017", label: "Started B.E. ECE", desc: "Meenakshi College of Engineering", color: "var(--accent)" },
             { year: "2021", label: "Graduated — CGPA 8.03", desc: "Anna University, Chennai", color: "var(--accent3)" },
-            { year: "2021", label: "Joined Kal Cables", desc: "Jr. Software Developer · .NET Full-stack", color: "var(--accent2)" },
+            { year: "Dec'21", label: "Joined Kal Cables", desc: "Jr. Software Developer · .NET Full-stack", color: "var(--accent2)" },
             { year: "2024", label: "Joined Resulticks", desc: "Software Engineer · Python, AI-Augmented Dev", color: "var(--accent)" },
             { year: "Now", label: "Growing & Contributing", desc: "AI, APIs, Platform Engineering", color: "var(--accent3)" },
           ].map((item, i) => (

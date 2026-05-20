@@ -64,8 +64,8 @@ export const data = {
       role: "Jr. Software Developer",
       company: "Kal Cables",
       location: "Chennai",
-      period: "Jul 2021 – Oct 2024",
-      duration: "3 Years 4 Months",
+      period: "Dec 2021 – Oct 2024",
+      duration: "2 Years 10 Months",
       type: "Full-Time",
       highlights: [
         {
