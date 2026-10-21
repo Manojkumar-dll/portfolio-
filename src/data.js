@@ -1,10 +1,28 @@
+const emailSubject = "Opportunity Discussion | Manoj Kumar G";
+const emailBody = `Hi Manoj,
+
+I came across your portfolio and was impressed by your work and experience in .NET Core, Python, and AI-augmented software engineering.
+
+We currently have an exciting opportunity that aligns with your background, and I would love to connect with you to discuss it further.
+
+Please let me know your availability for a brief conversation this week.
+
+Looking forward to hearing from you!
+
+Best regards,
+[Your Name / Company]`;
+
 export const data = {
   name: "Manoj Kumar G",
   title: "Software Engineer",
   tagline: ".NET Core · Python · AI-Augmented Development",
   location: "Chennai, Tamil Nadu",
   phone: "7358505405",
-  email: "manojkumarsdnet@gmail.com",
+  email: "manojkumarece2021@gmail.com",
+  emailSubject,
+  emailBody,
+  gmailDraftUrl: `https://mail.google.com/mail/?view=cm&fs=1&to=manojkumarece2021@gmail.com&su=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`,
+  mailtoUrl: `mailto:manojkumarece2021@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`,
   linkedin: "https://linkedin.com/in/manoj-kumar-g114",
   github: "https://github.com/Manojkumar-dll",
 

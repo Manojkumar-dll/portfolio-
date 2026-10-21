@@ -19,7 +19,7 @@ export default function Footer() {
             onMouseEnter={e => e.target.style.color = "var(--accent)"}
             onMouseLeave={e => e.target.style.color = "var(--text3)"}
           >LinkedIn</a>
-          <a href={`mailto:${data.email}`} style={{ color: "var(--text3)", fontSize: "0.82rem", transition: "color 0.2s" }}
+          <a href={data.gmailDraftUrl} target="_blank" rel="noopener noreferrer" title="Compose draft in Gmail" style={{ color: "var(--text3)", fontSize: "0.82rem", transition: "color 0.2s" }}
             onMouseEnter={e => e.target.style.color = "var(--accent)"}
             onMouseLeave={e => e.target.style.color = "var(--text3)"}
           >Email</a>

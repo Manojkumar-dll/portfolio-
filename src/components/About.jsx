@@ -28,7 +28,10 @@ export default function About() {
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
             <a
-              href={`mailto:${data.email}`}
+              href={data.gmailDraftUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Compose draft in Gmail"
               style={{
                 display: "inline-flex", alignItems: "center", gap: "0.5rem",
                 padding: "0.6rem 1.2rem", borderRadius: "8px",
